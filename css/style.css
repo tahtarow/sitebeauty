@@ -580,6 +580,15 @@ body {
   color: #117dc1;
 }
 
+button {
+  background-color: #f7f7f7;
+  border: 1px solid #999;
+  border-radius: 4px;
+  height: 22px;
+  margin: 0;
+  padding: 0 5px;
+}
+
 .b__container__section {
   width: 1120px;
   margin: 0 auto;
@@ -910,5 +919,103 @@ body {
   font-weight: 400;
   min-height: 36px;
   padding-left: 40px;
+}
+
+.footer {
+  padding: 10px 0;
+  margin: 10px 0;
+  padding-bottom: 5px;
+}
+
+.footer__block_position {
+  position: relative;
+}
+
+.footer__block {
+  width: 1120px;
+  clear: both;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.footer__block .footer__links {
+  width: calc(100% - 40px);
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__block .footer__links .footer__links-column {
+  display: inline-table;
+  margin-right: 30px;
+  vertical-align: top;
+}
+
+.footer__block .footer__links .footer__links-column .footer__links-column-title {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.footer__block .footer__links .footer__links-column .footer__link {
+  display: inline-block;
+  line-height: 16px;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 4px;
+  color: black;
+}
+
+.footer__block .footer__links .footer__links-column .view_as_link {
+  background: 0;
+  background-color: transparent;
+  color: black;
+  border: 0;
+  padding: 0;
+  display: inline;
+  text-decoration: underline;
+  outline: 0;
+}
+
+.footer__block .footer__links .footer__links-column .footer__link-btn {
+  display: inline-block;
+  line-height: 16px;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 4px;
+  border: 0;
+  padding: 0;
+  height: 17px;
+  outline: none !important;
+}
+
+.footer__block .footer__sidebar {
+  width: 88px;
+  display: inline-block;
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.footer__block .footer__smi {
+  margin-bottom: 20px;
+}
+
+.footer__block .footer__warning {
+  background-position: center;
+  background-position-x: 0;
+  background-size: 32px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+  padding-top: 7px;
+  height: 25px;
+  margin-bottom: 20px;
 }
 /*# sourceMappingURL=style.css.map */
