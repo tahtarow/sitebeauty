@@ -1,11 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/10fd7c51d5.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header class="b-header">
+        <div class="b__container">
+            <div class="city__block">
+                <i class="fas fa-location-arrow city__icon"></i>
+                <a href="#" class="city__text">Москва</a>
+            </div>
+            <div class="logo">
+                <a class="logo__link"><img src="" alt="">LOGO</a>
+            </div>
+            <div class="account__block">
+                <a class="account__link">
+                    <span class="fas fa-door-open account__buttom_icon"></span>
+                    <span class="account__buttom__main">Войти</span>
+                </a>
+                <div class="account__choose-proj">
+                    <div class="fas fa-bars account__choose-proj-btn"></div>
+                    <div class="account__choose-proj-popup"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section__one">
+            <div class="b-intro">
+                <div class="b__container__section">
+                    <div class="b-intro__header">
+                        <h1 class="b-intro__title">Сайт отзывов о врачах №1 в России</h1>
+                        <span>*</span>
+                        <div class="b-intro__subtitle">
+                            по количеству отзывов, посетителей и страниц врачей<br>
+                            (исследование "РБК", сентябрь 2019)
+                        </div>
+                    </div>
+                    <div class="b-intro__body">
+                        <div class="b-intro__search-container">
+                            <div class="b-search" data-url="/ajax/moskva/find/?q=" data-town-translit="moskva"
+                                data-uniq-id="55841975">
+                                <form class="b-search__form" method="get" action="/moskva/find/">
+                                    <div class="b-search__input-wrapp">
+                                        <span class="twitter-typeahead"
+                                            style="position: relative; display: inline-block;">
+                                            <input type="text" class="b-search__input" data-town="moskva" name="q"
+                                                required="" data-uniq-id="55841975" autocomplete="off"
+                                                spellcheck="false" dir="auto"
+                                                style="position: relative; vertical-align: top;">
+                                            <pre aria-hidden="true"
+                                                style="position: absolute; visibility: hidden; white-space: pre; font-family: Roboto, Arial, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: 0px; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre>
+                                            <div class="b-search__menu"
+                                                style="position: absolute; top: 100%; left: 0px; z-index: 100; display: none;">
+                                                <div class="tt-dataset tt-dataset-search-results"></div>
+                                            </div>
+                                        </span>
+                                        <input type="hidden" disabled="disabled" name="" class="find_place_hid"
+                                            value="">
+                                        <label for="q" class="b-search__label">Поиск врача, клиники, услуги</label>
+                                        <div class="b-search__close-res" data-uniq-id="55841975"></div>
+                                        <div class="b-search__initial-prompt">Вы можете искать по фамилии врача,
+                                            названию клиники, услуге, метро или району…</div>
+                                    </div>
+                                    <button class="b-button b-button_red b-button_big b-search__btn"
+                                        data-uniq-id="55841975"><span
+                                            class="ui-text ui-text_button">Поиск</span></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="b-intro__stat">
+                            <div class="b-intro__stat-item">
+                                <div class="b-intro__stat-item-img b-intro__stat-item-img_type_reviews far fa-comments">
+                                </div>
+                                <div class="b-intro__stat-item-content">
+                                    <div class="b-intro__stat-item-name">Отзывы</div>
+                                    <div class="b-intro__stat-item-num">1&nbsp;765&nbsp;270</div>
+                                </div>
+                                <div class="b-intro__stat-item-footer">
+                                    <div class="b-intro__stat-item-week-num">+5&nbsp;498</div>
+                                </div>
+                            </div>
+                            <div class="b-intro__stat-item">
+                                <div
+                                    class="b-intro__stat-item-img b-intro__stat-item-img_type_appointment far fa-calendar-times">
+                                </div>
+                                <div class="b-intro__stat-item-content">
+                                    <div class="b-intro__stat-item-name">Записи на приём</div>
+                                    <div class="b-intro__stat-item-num">3&nbsp;671&nbsp;808</div>
+                                </div>
+                                <div class="b-intro__stat-item-footer">
+                                    <div class="b-intro__stat-item-week-num">+35&nbsp;079</div>
+                                </div>
+                            </div>
+                            <div class="b-intro__stat-item">
+                                <div
+                                    class="b-intro__stat-item-img b-intro__stat-item-img_type_doctor fas fa-user-shield">
+                                </div>
+                                <div class="b-intro__stat-item-content">
+                                    <div class="b-intro__stat-item-name">Врачей</div>
+                                    <div class="b-intro__stat-item-num">683&nbsp;900</div>
+                                </div>
+                                <div class="b-intro__stat-item-footer">
+                                    <div class="b-intro__stat-item-week-num">+1&nbsp;014</div>
+                                </div>
+                            </div>
+                            <div class="b-intro__stat-item">
+                                <div class="b-intro__stat-item-img b-intro__stat-item-img_type_lpu fas fa-house-user">
+                                </div>
+                                <div class="b-intro__stat-item-content">
+                                    <div class="b-intro__stat-item-name">Клиник</div>
+                                    <div class="b-intro__stat-item-num">48&nbsp;864</div>
+                                </div>
+                                <div class="b-intro__stat-item-footer">
+                                    <div class="b-intro__stat-item-week-num">+13</div>
+                                </div>
+                            </div>
+                            <div class="b-intro__stat-item">
+                                <div class="b-intro__stat-item-img b-intro__stat-item-img_type_users fas fa-users">
+                                </div>
+                                <div class="b-intro__stat-item-content">
+                                    <div class="b-intro__stat-item-name">Посетителей в месяц</div>
+                                    <div class="b-intro__stat-item-num">11&nbsp;313&nbsp;497</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+    <section class="section__two">
+        <div class="b-popular">
+            <div class="b__container__section">
+                <div class="b-popular__header">
+                    <h2 class="b-popular__title">
+                        <i class="fas fa-fire"></i>
+                        <span class="b-popular__title-text">Популярное в </span>
+                        <!--
+            --><a href="#b-choose-town-popup" class="b-popular__title-town-link" data-translit="moskva"
+                            data-effect="mag-popup_anim_vertical" data-url="/ajax/town/moskva/">
+                            Москве
+                        </a></h2>
+                </div>
+                <div class="b-popular__content">
+                    <div class="b-popular__cards">
+                        <div class="b-popular__card">
+                            <div class="b-popular__card-inner">
+                                <a class="b-popular__card-header" href="#">
+                                    <div class="b-popular__card-title">Врачи</div>
+                                    <div class="b-popular__card-all-count">105&nbsp;112</div>
+                                </a>
+                                <div class="b-popular__card-content">
+                                    <div class="b-popular__card-content-links">
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">Гинекологи</a>
+                                            <div class="b-popular__card-content-link-count">5743</div>
+                                        </div>
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">Неврологи</a>
+                                            <div class="b-popular__card-content-link-count">3646</div>
+                                        </div>
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">Гастроэнтерологи</a>
+                                            <div class="b-popular__card-content-link-count">1152</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-popular__card-footer">
+                                    <a href="#" class="b-popular__card-footer-btn b-button b-button_light">
+                                        <span class="ui-text ui-text_button">Все врачи</span></a></div>
+                            </div>
+                        </div>
+                        <div class="b-popular__card">
+                            <div class="b-popular__card-inner">
+                                <a class="b-popular__card-header" href="#">
+                                    <div class="b-popular__card-title">Клиники</div>
+                                    <div class="b-popular__card-all-count">5&nbsp;198</div>
+                                </a>
+                                <div class="b-popular__card-content">
+                                    <div class="b-popular__card-content-links">
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">Стоматологии</a>
+                                            <div class="b-popular__card-content-link-count">1202</div>
+                                        </div>
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">Медцентры</a>
+                                            <div class="b-popular__card-content-link-count">921</div>
+                                        </div>
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">Больницы</a>
+                                            <div class="b-popular__card-content-link-count">141</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-popular__card-footer">
+                                    <a href="#" class="b-popular__card-footer-btn b-button b-button_light">
+                                        <span class="ui-text ui-text_button">Все клиники</span></a></div>
+                            </div>
+                        </div>
+                        <div class="b-popular__card">
+                            <div class="b-popular__card-inner">
+                                <a class="b-popular__card-header" href="#">
+                                    <div class="b-popular__card-title">Услуги</div>
+                                    <div class="b-popular__card-all-count">164&nbsp;434</div>
+                                </a>
+                                <div class="b-popular__card-content">
+                                    <div class="b-popular__card-content-links">
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">УЗИ</a>
+                                            <div class="b-popular__card-content-link-count">1571</div>
+                                        </div>
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">МРТ</a>
+                                            <div class="b-popular__card-content-link-count">305</div>
+                                        </div>
+                                        <div class="b-popular__card-content-links-item">
+                                            <a href="#" class="b-popular__card-content-link">КТ</a>
+                                            <div class="b-popular__card-content-link-count">279</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-popular__card-footer">
+                                    <a href="#" class="b-popular__card-footer-btn b-button b-button_light">
+                                        <span class="ui-text ui-text_button">Все услуги</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
 </body>
+
 </html>
